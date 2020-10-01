@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="352px" height="352px" viewBox="0 0 352 352" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>BDM-logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-24.000000, -24.000000)">
+            <g id="BDM-logo" transform="translate(25.000000, 25.000000)">
+                <rect id="Rectangle" stroke-opacity="0.09" stroke="#979797" stroke-width="0.1" x="0" y="0" width="350" height="350"></rect>
+                <g id="bdm" transform="translate(13.000000, 66.000000)" stroke="#000B90" stroke-linejoin="round" stroke-width="6.99999988">
+                    <g id="Group" transform="translate(81.462258, 115.492032) rotate(-12.000000) translate(-81.462258, -115.492032) translate(17.462258, 24.992032)">
+                        <polygon id="Path" points="0 50.3999991 47.9499992 0 85.3999985 50.3999991"></polygon>
+                        <polygon id="Path-2" points="0 50.3999991 127.049998 180.949997 85.3999985 50.3999991"></polygon>
+                    </g>
+                    <polygon id="Path-3" points="93.932086 71.2296546 99.1812447 18.488283 159.663604 57.2579892 161.867304 190.514296"></polygon>
+                    <g id="Group-2" transform="translate(226.523393, 96.210785) rotate(-12.000000) translate(-226.523393, -96.210785) translate(143.523393, 16.210785)">
+                        <polygon id="Path-4" points="58.8449755 14.7411141 25.3908281 28.4038362 0.499999583 159.149997 118.20193 65.9019556 91.6500942 0.816167333"></polygon>
+                        <polygon id="Path-5" points="137.082102 19.1718901 165.905539 85.1754645 0.178812068 159.302676 73.0321469 46.8972041"></polygon>
+                    </g>
+                    <polyline id="Path-6" stroke-linecap="round" points="47.155709 30.4385452 99.3057081 18.5385454 158.455707 8.0385456 218.655706 16.7885454 266.605705 25.5385453"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

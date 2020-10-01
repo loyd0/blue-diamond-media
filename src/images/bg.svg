@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="1069px" viewBox="0 0 1920 1069" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>bg</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(0.000000, -451.000000)">
+            <g id="bg" transform="translate(-298.000000, 262.000000)">
+                <g id="Group" stroke="#00B4FF" stroke-width="2">
+                    <path d="M2218,845 C1809,1177.33333 1374,1221 913,976 C452,731 147.666667,626.333333 0,662" id="Path-7"></path>
+                    <path d="M2375.5,698 C2117.16667,566.666667 1827.83333,597.666667 1507.5,791 C1187.16667,984.333333 748.166667,868 190.5,442" id="Path-7-Copy"></path>
+                    <path d="M2375.5,698 C2117.16667,566.666667 1827.83333,597.666667 1507.5,791 C1187.16667,984.333333 748.166667,868 190.5,442" id="Path-7-Copy-4" transform="translate(1283.000000, 661.763724) rotate(-25.000000) translate(-1283.000000, -661.763724) "></path>
+                    <path d="M2376,734 C2117.66667,602.666667 1828.33333,633.666667 1508,827 C1187.66667,1020.33333 748.666667,904 191,478" id="Path-7-Copy-2" transform="translate(1283.500000, 697.763724) scale(-1, 1) translate(-1283.500000, -697.763724) "></path>
+                    <path d="M2376,864 C2117.66667,732.666667 1828.33333,763.666667 1508,957 C1187.66667,1150.33333 748.666667,1034 191,608" id="Path-7-Copy-3" transform="translate(1283.500000, 827.763724) scale(-1, 1) rotate(-20.000000) translate(-1283.500000, -827.763724) "></path>
+                </g>
+                <rect id="Rectangle" stroke-opacity="0.01" stroke="#979797" stroke-width="0.01" x="298" y="190" width="1920" height="1067"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

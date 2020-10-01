@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Linked from '../elements/Linked'
 import UseBodyLock from '../../hooks/useBodyLock';
 // import { SocialIcons } from '../elements/SocialIcons';
+import Logo from '../../images/BDM-logo.svg'
 
 
 const Nav = (props) => {
@@ -17,11 +18,10 @@ const Nav = (props) => {
 
     return (
         <>
-            <nav className="hidden md:flex py-4 flex max-w-screen-lg mx-auto font-thin px-2" >
+            <nav className="hidden md:flex py-4 flex max-w-screen-lg mx-auto font-thin px-2 relative z-20" >
                 <NavLinks className="flex w-2/5 justify-around self-center"  active={pathName} />
                 <Linked linkTo="/" className="w-1/5 text-center">
-                    Logo
-                    {/* <img className="w-16 mx-auto" src={Logo} alt="San Loyd | Freelance Developer &amp; Designer | Logo" /> */}
+                    <img className="w-16 mx-auto" src={Logo} alt="Blue Diamond Media Logo" />
                 </Linked>
                 <NavLinks className="flex w-2/5 justify-around self-center"  active={pathName} />
             </nav>
@@ -33,7 +33,7 @@ const Nav = (props) => {
                 <i className="fa text-gray-900 fa-ellipsis-v"></i>
             </button>
             <Linked linkTo="/" className="md:hidden w-1/5 mx-auto mb-1 ">
-                    {/* <img className="w-12 mx-auto" src={Logo} alt="San Loyd | Freelance Developer &amp; Designer | Logo" /> */}
+                    <img className="w-12 mx-auto" src={Logo} alt="Blue Diamond Media Logo" />
                 </Linked>
 
             </div>

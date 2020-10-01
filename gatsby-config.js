@@ -18,7 +18,7 @@ require("dotenv").config({
 // Handles removing the robot crawlers from Netlify preview domains and improves SEO
 const {
   NODE_ENV,
-  URL: NETLIFY_SITE_URL = 'https://your-valid-url.com',
+  URL: NETLIFY_SITE_URL = 'https://bluediamondmedia.com',
   DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
   CONTEXT: NETLIFY_ENV = NODE_ENV
 } = process.env;
@@ -27,8 +27,8 @@ const siteUrl = isNetlifyProduction ? NETLIFY_SITE_URL : NETLIFY_DEPLOY_URL;
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby and TailWind Starter`,
-    description: `A basic starter with Tailwind and Font Awesome`,
+    title: `Blue Diamond Media`,
+    description: `Blue Diamond Media is a consultancy specialising in transcription services.`,
     author: `Sam Loyd`,
     siteUrl
   },
@@ -151,13 +151,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Blue Diamond Media`,
+        short_name: `BDM`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/BDM-logo.svg`, // This path is relative to the root of the site.
       },
     },
   ],
