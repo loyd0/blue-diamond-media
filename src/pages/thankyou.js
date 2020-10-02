@@ -21,7 +21,7 @@ const IndexPage = () => (
     <section
       className="flex h-screen text-center">
 
-      <div className="self-center ">
+      <div className="self-center mx-auto -mt-32 ">
         <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-blue-800 font-bold lg:text-6xl leading-tight">Thanks we will be in touch.</h1>
       </div>
       
