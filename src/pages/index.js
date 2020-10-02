@@ -22,11 +22,11 @@ const IndexPage = () => (
       className="grid md:grid-cols-2 md:mb-32">
 
       <div className="">
-        <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-blue-800 font-bold lg:text-6xl leading-tight">We help high ticket consultants create the best coaching experience.</h1>
+        <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-blue-800 font-bold lg:text-6xl leading-tight">We help high ticket consultants create the best coaching call experiences.</h1>
         <p className="text-2xl">Provide even more value to your clients with our transcription and call packaging services.</p>
       </div>
       <div className="mt-8 md:mt-0">
-        <form data-netlify="true" name="contact" action="POST" className="px-4 sm:px-6 md:px-8 mt-4 py-6 rounded bg-gradient-to-br from-blue-900 to-blue-700 text-white max-w-md mx-auto text-sm shadow-md space-y-2 ">
+        <form data-netlify="true" name="contact" method="POST" className="px-4 sm:px-6 md:px-8 mt-4 py-6 rounded bg-gradient-to-br from-blue-900 to-blue-700 text-white max-w-md mx-auto text-sm shadow-md space-y-2 ">
           <h3 className="text-left font-black  mb-0 bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-blue-600 ">GET STARTED TODAY</h3>
           <p class="hidden">
             <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
@@ -67,11 +67,11 @@ const IndexPage = () => (
 
 
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 text-base gap-2 md:gap-4 mt-6 ">
+      <div className="order-2 lg:order-1 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 text-base gap-2 md:gap-4 mt-6 ">
 
         {Services.map((service, index) => <Service key={index} {...service} />)}
       </div>
-      <div className="space-y-4 md:max-w-lg mx-auto ">
+      <div className="space-y-4 lg:max-w-lg mx-auto order-1">
         <h2 className="font-bold max-w-3xl mx-auto mt-24 text-3xl md:text-4xl">Are you a high ticket coach holding monthly consulting calls with your clients?</h2>
         <p className="text-xl max-w-2xl mx-auto">We create a uniquely branded, permanent record of your training sessions for you and your clients. Allowing them to fully focus in your sessions and not have to worry about taking notes.</p>
 
@@ -85,7 +85,7 @@ const IndexPage = () => (
 
     <section className=" space-y-5 mt-32 ">
 
-      <form data-netlify="true" name="contact" action="POST" className="px-4 sm:px-6 md:px-8 mt-4 py-6 rounded bg-gradient-to-br from-blue-900 to-blue-700 text-white max-w-md mx-auto text-sm shadow-lg space-y-2 ">
+      <form data-netlify="true" name="contact" method="POST" className="px-4 sm:px-6 md:px-8 mt-4 py-6 rounded bg-gradient-to-br from-blue-900 to-blue-700 text-white max-w-md mx-auto text-sm shadow-lg space-y-2 ">
         <h3 className="text-left font-black  mb-0 bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-blue-600 ">GET STARTED TODAY</h3>
         <p class="hidden">
           <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
