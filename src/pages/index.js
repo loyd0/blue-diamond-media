@@ -26,8 +26,11 @@ const IndexPage = () => (
         <p className="text-2xl">Provide even more value to your clients with our transcription and call packaging services.</p>
       </div>
       <div className="mt-8 md:mt-0">
-        <form name="contact" action="POST" className="px-4 sm:px-6 md:px-8 mt-4 py-6 rounded bg-gradient-to-br from-blue-900 to-blue-700 text-white max-w-md mx-auto text-sm shadow-md space-y-2 ">
-        <h3 className="text-left font-black  mb-0 bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-blue-600 ">GET STARTED TODAY</h3>
+        <form data-netlify="true" name="contact" action="POST" className="px-4 sm:px-6 md:px-8 mt-4 py-6 rounded bg-gradient-to-br from-blue-900 to-blue-700 text-white max-w-md mx-auto text-sm shadow-md space-y-2 ">
+          <h3 className="text-left font-black  mb-0 bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-blue-600 ">GET STARTED TODAY</h3>
+          <p class="hidden">
+            <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+          </p>
           <div>
             <label className="block" htmlFor="name">Name</label>
             <input className=" px-4 text-base text-blue-900 w-full py-1 rounded bg-gray-100" type="text" name="name" />
@@ -82,25 +85,28 @@ const IndexPage = () => (
 
     <section className=" space-y-5 mt-32 ">
 
-    <form name="contact" action="POST" className="px-4 sm:px-6 md:px-8 mt-4 py-6 rounded bg-gradient-to-br from-blue-900 to-blue-700 text-white max-w-md mx-auto text-sm shadow-lg space-y-2 ">
-          <h3 className="text-left font-black  mb-0 bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-blue-600 ">GET STARTED TODAY</h3>
-          <div>
-            <label className="block" htmlFor="name">Name</label>
-            <input className=" px-4 text-base text-blue-900 w-full py-1 rounded bg-gray-100" type="text" name="name" />
-          </div>
-          <div>
-            <label className="block" htmlFor="name">Email</label>
-            <input className=" px-4 text-base text-blue-900  w-full py-1 rounded bg-gray-100" type="text" name="email" />
-          </div>
-          <div>
-            <label className="block" htmlFor="name">Phone</label>
-            <input className=" px-4 text-base text-blue-900 w-full py-1 rounded bg-gray-100" type="text" name="phone" />
-          </div>
-          <div className="mt-4">
-            <button className="w-full text-white py-1 text-lg rounded mt-2 bg-blue-900 " type="submit" > Send </button>
-          </div>
+      <form data-netlify="true" name="contact" action="POST" className="px-4 sm:px-6 md:px-8 mt-4 py-6 rounded bg-gradient-to-br from-blue-900 to-blue-700 text-white max-w-md mx-auto text-sm shadow-lg space-y-2 ">
+        <h3 className="text-left font-black  mb-0 bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-blue-600 ">GET STARTED TODAY</h3>
+        <p class="hidden">
+          <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+        </p>
+        <div>
+          <label className="block" htmlFor="name">Name</label>
+          <input className=" px-4 text-base text-blue-900 w-full py-1 rounded bg-gray-100" type="text" name="name" />
+        </div>
+        <div>
+          <label className="block" htmlFor="name">Email</label>
+          <input className=" px-4 text-base text-blue-900  w-full py-1 rounded bg-gray-100" type="text" name="email" />
+        </div>
+        <div>
+          <label className="block" htmlFor="name">Phone</label>
+          <input className=" px-4 text-base text-blue-900 w-full py-1 rounded bg-gray-100" type="text" name="phone" />
+        </div>
+        <div className="mt-4">
+          <button className="w-full text-white py-1 text-lg rounded mt-2 bg-blue-900 " type="submit" > Send </button>
+        </div>
 
-        </form>
+      </form>
     </section>
 
 
