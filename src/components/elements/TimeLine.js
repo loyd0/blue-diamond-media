@@ -18,9 +18,9 @@ export default function TimeLine({ steps = [], header, desc, highlight }) {
                 {desc.map(text => <p key={text} className="mt-4 max-w-4xl text-xl leading-7 text-blue-800 lg:mx-auto">{text}</p>)}
 
             </div>
-            <div className="flex flex-wrap">
+            <div className="flex flex-wrap md:flex-no-wrap">
                 <nav className="w-full md:w-1/2 mr-2 ">
-                    <ul className=" mx-auto md:w-64 text-left flex">
+                    <ul className=" mx-auto md:w-64 text-left flex md:flex-col">
                         {steps.map((step, index) => {
                             return <li key={index} className="relative pb-10 mr-2">
                                 {index !== steps.length - 1 && <div className="-ml-px absolute mt-0.5 top-8 left-4 w-0.5 h-16 bg-blue-600"></div>}

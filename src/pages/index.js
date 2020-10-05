@@ -29,6 +29,7 @@ const IndexPage = () => (
         <form data-netlify="true" name="contact" method="POST" action="/thankyou" className="px-4 sm:px-6 md:px-8 mt-4 py-6 rounded bg-gradient-to-br from-blue-900 to-blue-700 text-white max-w-md mx-auto text-sm shadow-md space-y-2 self-center w-full ">
         <input type="hidden" name="form-name" value="contact"/>
           <h3 className="text-left font-black  mb-0 bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-blue-600 ">GET STARTED TODAY</h3>
+          <p>Fill out your details below and we'll be in touch within 24 hours.</p>
           <p className="hidden">
             <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
           </p>
@@ -94,6 +95,7 @@ const IndexPage = () => (
         className="px-4 sm:px-6 md:px-8 mt-4 py-6 rounded bg-gradient-to-br from-blue-900 to-blue-700 text-white max-w-md mx-auto text-sm shadow-lg space-y-2 ">
         <input type="hidden" name="form-name" value="contact"/>
         <h3 className="text-left font-black  mb-0 bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-blue-600 ">GET STARTED TODAY</h3>
+        <p>Fill out your details below and we'll be in touch within 24 hours.</p>
         <p className="hidden">
           <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
         </p>
