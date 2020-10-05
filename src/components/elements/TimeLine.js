@@ -31,7 +31,7 @@ export default function TimeLine({ steps = [], header, desc, highlight }) {
                                             <span className={`h-2.5 w-2.5 bg-transparent rounded-full ${index === selectedStep && "bg-blue-400"} group-hover:bg-blue-300  transition ease-in-out duration-150`}></span>
                                         </span>
                                     </div>
-                                    <div className="min-w-0">
+                                    <div className="min-w-0 bg-white ">
                                         <h3 className="text-xs  leading-4 text-blue-800 font-semibold uppercase tracking-wide">{step.header}</h3>
                                         <p className="text-sm leading-5 text-blue-600">{step.desc}</p>
                                     </div>
@@ -42,12 +42,16 @@ export default function TimeLine({ steps = [], header, desc, highlight }) {
                     </ul>
                 </nav>
 
-                <div className="w-full text-left md:w-1/2  text-gray-300 flex flex-col h-full ">
-                    <div className="h-48 md:h-56 lg:h-48 bg-white shadow-lg rounded-md bg-clip-text text-transparent bg-gradient-to-br from-blue-500 to-blue-800 py-2 px-4 md:px-8 md:py-6 mb-4">
+                <div className="w-full text-left md:w-1/2  mb-4 text-gray-300 flex flex-col h-full ">
+
+                    <div className="shadow-lg bg-white rounded-md ">
+                    <div className="h-48 md:h-56 lg:h-48 bg-clip-text text-transparent bg-gradient-to-br from-blue-500 to-blue-800 py-2 px-4 md:px-8 md:py-6 ">
                         <h3 className="text-xl md:text-3xl mb-0 font-extrabold bg-clip-text text-transparent bg-gradient-to-br from-blue-500 to-blue-800">{steps[selectedStep].content.header}</h3>
                         <p className="bg-clip-text text-transparent bg-gradient-to-br from-blue-500 to-blue-800">{steps[selectedStep].content.desc}</p>
                     </div>
-                    <a href="#" className="w-full flex items-center justify-center px-8 py-3 border border-transparent leading-6 font-medium  text-white py-1 text-lg rounded mt-2 bg-blue-800 focus:outline-none hover:bg-blue-900 focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
+                    </div>
+                    
+                    <a href="#" className="w-full flex items-center justify-center px-8 py-3 border border-transparent leading-6 font-medium  text-white text-lg rounded mt-12  bg-blue-800 focus:outline-none hover:bg-blue-900 focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
                         Book a call with us today
                     </a>
                 </div>

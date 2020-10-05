@@ -27,10 +27,10 @@ const IndexPage = () => (
       </div>
       <div className=" md:mt-0 flex ">
         <form data-netlify="true" name="contact" method="POST" action="/thankyou" className="px-4 sm:px-6 md:px-8 mt-4 py-6 rounded bg-gradient-to-br from-blue-900 to-blue-700 text-white max-w-md mx-auto text-sm shadow-md space-y-2 self-center w-full ">
-        <input type="hidden" name="form-name" value="contact"/>
+          <input type="hidden" name="form-name" value="contact" />
           <h3 className="text-left font-black  mb-0 bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-blue-600 ">GET STARTED TODAY</h3>
           <p>Fill out your details below and we'll be in touch within 24 hours.</p>
-    
+
           <div>
             <label className="block" htmlFor="name">Name</label>
             <input className=" px-4 text-base text-blue-900 w-full py-1 rounded bg-gray-100" type="text" name="name" />
@@ -86,15 +86,69 @@ const IndexPage = () => (
       <TimeLine {...Process} />
     </section>
 
+    <section className=" text-center">
+      <div className=" ">
+        <h2 className="font-bold max-w-3xl mx-auto mt-24 text-3xl md:text-4xl">Simple, easy pricing</h2>
+        <p className="text-xl mx-auto">Let us take a weight of your hands, and help you provide even more value to your clients.</p>
+        <div className="grid grid-cols-1 xl:grid-cols-3 text-left gap-8 xl:gap-4 mt-8">
+        <div className="max-w-lg mx-auto ">
+            <div className=" mx-auto px-4 py-4 rounded bg-white shadow-lg ">
+
+              <div className="flex">
+                <h3 className=" w-1/2 flex-grow uppercase font-black bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-blue-600 ">Simple transcript</h3>
+
+                <div>
+                  <h5 className="font-black mt-4  sm:mt-0 xl:mt-4">£29.99</h5>
+                  <p><small className="text-xs">per 30 mins</small></p>
+                </div>
+              </div>  
+
+            <p className="text-light text-base mt-2 xl:mt-5">Simple, quick transcripts of your client calls for your records and theirs.</p>
+            </div>
+          </div>
+          <div className="max-w-lg mx-auto ">
+            <div className=" mx-auto px-4 py-4 rounded bg-white shadow-lg ">
+              <div className="flex">
+                <h3 className=" w-1/2 flex-grow uppercase font-black bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-blue-600 ">Formatted transcript</h3>
+
+                <div>
+                  <h5 className="font-black mt-4  sm:mt-0 xl:mt-4">£39.99</h5>
+                  <p><small className="text-xs">per 30 mins</small></p>
+                </div>
+              </div>  
+
+            <p className="text-light text-base mt-2 xl:mt-5">Perfectly formatted transcripts with your own personal branding.</p>
+            </div>
+          </div>
+          <div className="max-w-lg mx-auto ">
+            <div className=" mx-auto px-4 py-4 rounded bg-white shadow-lg ">
+
+              <div className="flex">
+                <h3 className=" w-1/2 flex-grow uppercase font-black bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-blue-600 ">Unlimited transcripts</h3>
+
+                <div className='pl-2'>
+                  <h5 className="font-black mt-4  sm:mt-0 xl:mt-4">£999.99</h5>
+                  <p><small className="text-xs">per month</small></p>
+                </div>
+              </div>  
+
+            <p className="text-light text-base mt-2 xl:mt-5">Unlimited formatted transcripts <b>with summaries created for every call</b>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
     <section className=" space-y-5 mt-32 ">
 
-      <form 
-        data-netlify="true" 
-        name="contact" 
-        method="post" 
+      <form
+        data-netlify="true"
+        name="contact"
+        method="post"
         action="/thankyou"
         className="px-4 sm:px-6 md:px-8 mt-4 py-6 rounded bg-gradient-to-br from-blue-900 to-blue-700 text-white max-w-md mx-auto text-sm shadow-lg space-y-2 ">
-        <input type="hidden" name="form-name" value="contact"/>
+        <input type="hidden" name="form-name" value="contact" />
         <h3 className="text-left font-black  mb-0 bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-blue-600 ">GET STARTED TODAY</h3>
         <p>Fill out your details below and we'll be in touch within 24 hours.</p>
 
