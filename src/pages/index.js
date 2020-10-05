@@ -30,9 +30,7 @@ const IndexPage = () => (
         <input type="hidden" name="form-name" value="contact"/>
           <h3 className="text-left font-black  mb-0 bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-blue-600 ">GET STARTED TODAY</h3>
           <p>Fill out your details below and we'll be in touch within 24 hours.</p>
-          <p className="hidden">
-            <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-          </p>
+    
           <div>
             <label className="block" htmlFor="name">Name</label>
             <input className=" px-4 text-base text-blue-900 w-full py-1 rounded bg-gray-100" type="text" name="name" />
@@ -45,6 +43,9 @@ const IndexPage = () => (
             <label className="block" htmlFor="name">Phone</label>
             <input className=" px-4 text-base text-blue-900 w-full py-1 rounded bg-gray-100" type="text" name="phone" />
           </div>
+          <p className="hidden">
+            <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+          </p>
           <div className="mt-4">
             <button className="w-full text-white py-1 text-lg rounded mt-2 bg-blue-900 " type="submit" > Send </button>
           </div>
@@ -96,9 +97,7 @@ const IndexPage = () => (
         <input type="hidden" name="form-name" value="contact"/>
         <h3 className="text-left font-black  mb-0 bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-blue-600 ">GET STARTED TODAY</h3>
         <p>Fill out your details below and we'll be in touch within 24 hours.</p>
-        <p className="hidden">
-          <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-        </p>
+
         <div>
           <label className="block" htmlFor="name">Name</label>
           <input className=" px-4 text-base text-blue-900 w-full py-1 rounded bg-gray-100" type="text" name="name" />
@@ -111,6 +110,9 @@ const IndexPage = () => (
           <label className="block" htmlFor="name">Phone</label>
           <input className=" px-4 text-base text-blue-900 w-full py-1 rounded bg-gray-100" type="text" name="phone" />
         </div>
+        <p className="hidden">
+          <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+        </p>
         <div className="mt-4">
           <button className="w-full text-white py-1 text-lg rounded mt-2 bg-blue-900 " type="submit" > Send </button>
         </div>
