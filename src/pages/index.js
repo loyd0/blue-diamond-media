@@ -19,17 +19,17 @@ const IndexPage = () => (
     </div>
 
     <section
-      className="grid md:grid-cols-2 md:mb-32">
+      className="grid md:grid-cols-2 md:mb-6 min-h-screen pt-4 md:-mt-24 ">
 
-      <div className="">
-        <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-blue-800 font-bold lg:text-6xl leading-tight">We help high ticket consultants create the best coaching call experiences.</h1>
+      <div className="flex flex-col justify-center ">
+        <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-blue-800 font-bold lg:text-6xl leading-tight text-4xl sm:text-5xl mb-6">We help high ticket consultants create the best coaching call experiences.</h1>
         <p className="text-2xl">Provide even more value to your clients with our transcription and call packaging services.</p>
       </div>
-      <div className="mt-8 md:mt-0">
-        <form data-netlify="true" name="contact" method="POST" action="/thankyou" className="px-4 sm:px-6 md:px-8 mt-4 py-6 rounded bg-gradient-to-br from-blue-900 to-blue-700 text-white max-w-md mx-auto text-sm shadow-md space-y-2 ">
+      <div className=" md:mt-0 flex ">
+        <form data-netlify="true" name="contact" method="POST" action="/thankyou" className="px-4 sm:px-6 md:px-8 mt-4 py-6 rounded bg-gradient-to-br from-blue-900 to-blue-700 text-white max-w-md mx-auto text-sm shadow-md space-y-2 self-center w-full ">
         <input type="hidden" name="form-name" value="contact"/>
           <h3 className="text-left font-black  mb-0 bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-blue-600 ">GET STARTED TODAY</h3>
-          <p class="hidden">
+          <p className="hidden">
             <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
           </p>
           <div>
@@ -59,7 +59,7 @@ const IndexPage = () => (
         backgroundRepeat: "no-repeat"
       }} />
     <div className="hidden sm:block w-full  absolute left-0 z-0 opacity-50 ">
-      <img className=" w-full h-full transform scale-150 lg:scale-100" src={BGWaves} alt="" />
+      <img className=" w-full h-full transform scale-150 md:scale-100" src={BGWaves} alt="" />
     </div>
 
 
@@ -94,7 +94,7 @@ const IndexPage = () => (
         className="px-4 sm:px-6 md:px-8 mt-4 py-6 rounded bg-gradient-to-br from-blue-900 to-blue-700 text-white max-w-md mx-auto text-sm shadow-lg space-y-2 ">
         <input type="hidden" name="form-name" value="contact"/>
         <h3 className="text-left font-black  mb-0 bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-blue-600 ">GET STARTED TODAY</h3>
-        <p class="hidden">
+        <p className="hidden">
           <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
         </p>
         <div>

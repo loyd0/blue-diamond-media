@@ -18,16 +18,16 @@ export default function TimeLine({ steps = [], header, desc, highlight }) {
                 {desc.map(text => <p key={text} className="mt-4 max-w-4xl text-xl leading-7 text-blue-800 lg:mx-auto">{text}</p>)}
 
             </div>
-            <div className="flex">
-                <nav className="w-1/3 md:w-1/2 mr-2 ">
-                    <ul className="overflow-hidden mx-auto w-64 text-left">
+            <div className="flex flex-wrap">
+                <nav className="w-full md:w-1/2 mr-2 ">
+                    <ul className=" mx-auto md:w-64 text-left flex">
                         {steps.map((step, index) => {
-                            return <li className="relative pb-10">
+                            return <li key={index} className="relative pb-10 mr-2">
                                 {index !== steps.length - 1 && <div className="-ml-px absolute mt-0.5 top-8 left-4 w-0.5 h-16 bg-blue-600"></div>}
                                 <a href="#" onClick={(e) => { e.preventDefault(); setStep(index) }}
-                                    className="relative flex space-x-4 items-start group focus:outline-none">
-                                    <div className="h-9 flex items-center">
-                                        <span className={`relative z-10 w-8 h-8 flex items-center justify-center bg-transparent border-2 border-blue-600 rounded-full group-hover:border-blue-400 ${index === selectedStep && "bg-blue-600"} transition ease-in-out duration-150`}>
+                                    className="relative flex space-x-1 md:space-x-4 items-start group focus:outline-none ">
+                                    <div className="h-9 flex items-center self-center">
+                                        <span className={`relative z-10 w-4 h-4 md:w-8 md:h-8 flex items-center justify-center bg-transparent border-2 border-blue-600 rounded-full group-hover:border-blue-400 ${index === selectedStep && "bg-blue-600"} transition ease-in-out duration-150`}>
                                             <span className={`h-2.5 w-2.5 bg-transparent rounded-full ${index === selectedStep && "bg-blue-400"} group-hover:bg-blue-300  transition ease-in-out duration-150`}></span>
                                         </span>
                                     </div>
@@ -42,10 +42,10 @@ export default function TimeLine({ steps = [], header, desc, highlight }) {
                     </ul>
                 </nav>
 
-                <div className="text-left md:w-1/2  text-gray-300 flex flex-col h-full ">
+                <div className="w-full text-left md:w-1/2  text-gray-300 flex flex-col h-full ">
                     <div className="h-48 md:h-56 lg:h-48 bg-white shadow-lg rounded-md bg-clip-text text-transparent bg-gradient-to-br from-blue-500 to-blue-800 py-2 px-4 md:px-8 md:py-6 mb-4">
-                        <h3 className="text-xl md:text-3xl mb-0 font-extrabold">{steps[selectedStep].content.header}</h3>
-                        <p className="">{steps[selectedStep].content.desc}</p>
+                        <h3 className="text-xl md:text-3xl mb-0 font-extrabold bg-clip-text text-transparent bg-gradient-to-br from-blue-500 to-blue-800">{steps[selectedStep].content.header}</h3>
+                        <p className="bg-clip-text text-transparent bg-gradient-to-br from-blue-500 to-blue-800">{steps[selectedStep].content.desc}</p>
                     </div>
                     <a href="#" className="w-full flex items-center justify-center px-8 py-3 border border-transparent leading-6 font-medium  text-white py-1 text-lg rounded mt-2 bg-blue-800 focus:outline-none hover:bg-blue-900 focus:border-indigo-700 focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10">
                         Book a call with us today

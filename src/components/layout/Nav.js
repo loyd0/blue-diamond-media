@@ -18,7 +18,7 @@ const Nav = (props) => {
 
     return (
         <>
-            <nav className="hidden md:flex py-4 flex max-w-screen-lg mx-auto font-thin px-2 relative z-20" >
+            <nav className="hidden md:flex py-4 max-w-screen-lg mx-auto font-thin px-2 relative z-20" >
                 <NavLinks className="flex w-2/5 justify-around self-center"  active={pathName} />
                 <Linked linkTo="/" className="w-1/5 text-center">
                     <img className="w-16 mx-auto" src={Logo} alt="Blue Diamond Media Logo" />
