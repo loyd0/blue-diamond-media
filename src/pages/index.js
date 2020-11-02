@@ -98,8 +98,8 @@ const IndexPage = () => (
                 <h3 className=" w-1/2 flex-grow uppercase font-black bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-blue-600 ">Simple transcript</h3>
 
                 <div>
-                  <h5 className="font-black mt-4  sm:mt-0 xl:mt-4">£29.99</h5>
-                  <p><small className="text-xs">per 30 mins</small></p>
+                  {/* <h5 className="font-black mt-4  sm:mt-0 xl:mt-4">£29.99</h5>
+                  <p><small className="text-xs">per 30 mins</small></p> */}
                 </div>
               </div>  
 
@@ -112,8 +112,8 @@ const IndexPage = () => (
                 <h3 className=" w-1/2 flex-grow uppercase font-black bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-blue-600 ">Formatted transcript</h3>
 
                 <div>
-                  <h5 className="font-black mt-4  sm:mt-0 xl:mt-4">£39.99</h5>
-                  <p><small className="text-xs">per 30 mins</small></p>
+                  {/* <h5 className="font-black mt-4  sm:mt-0 xl:mt-4">£39.99</h5>
+                  <p><small className="text-xs">per 30 mins</small></p> */}
                 </div>
               </div>  
 
@@ -127,8 +127,8 @@ const IndexPage = () => (
                 <h3 className=" w-1/2 flex-grow uppercase font-black bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-blue-600 ">Unlimited transcripts</h3>
 
                 <div className='pl-2'>
-                  <h5 className="font-black mt-4  sm:mt-0 xl:mt-4">£999.99</h5>
-                  <p><small className="text-xs">per month</small></p>
+                  {/* <h5 className="font-black mt-4  sm:mt-0 xl:mt-4">£999.99</h5>
+                  <p><small className="text-xs">per month</small></p> */}
                 </div>
               </div>  
 
