@@ -95,7 +95,7 @@ const IndexPage = () => (
             <div className=" mx-auto px-4 py-4 rounded bg-white shadow-lg ">
 
               <div className="flex">
-                <h3 className=" w-1/2 flex-grow uppercase font-black bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-blue-600 ">Simple transcript</h3>
+                <h3 className=" w-1/2 flex-grow uppercase font-black bg-clip-text text-transparent bg-gradient-to-r from-blue-300 to-blue-600 ">Simple <br className="hidden lg:block"/> transcript</h3>
 
                 <div>
                   {/* <h5 className="font-black mt-4  sm:mt-0 xl:mt-4">£29.99</h5>
