@@ -88,7 +88,7 @@ const IndexPage = () => (
 
     <section className=" text-center">
       <div className=" ">
-        <h2 className="font-bold max-w-3xl mx-auto mt-24 text-3xl md:text-4xl">Simple, easy pricing</h2>
+        <h2 className="font-bold max-w-3xl mx-auto mt-24 text-3xl md:text-4xl">Simple, easy offer</h2>
         <p className="text-xl mx-auto">Let us take a weight of your hands, and help you provide even more value to your clients.</p>
         <div className="grid grid-cols-1 xl:grid-cols-3 text-left gap-8 xl:gap-4 mt-8">
         <div className="max-w-lg mx-auto ">
